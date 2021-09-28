@@ -18,7 +18,7 @@ void draw(){
     background(255);
    }
    
-   //set drawing size
+   //set drawing size with 1, 2 or 3
    if(keyPressed && key == '1'){
     Size = 10;
    }
@@ -42,7 +42,7 @@ void draw(){
 void mouseDragged(){
   noStroke();
   fill(circleColor);
-  circle(mouseX,mouseY,Size) ;
+  circle(mouseX,mouseY,Size);
   
   
   //Way too complicated gradient
